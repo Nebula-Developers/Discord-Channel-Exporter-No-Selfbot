@@ -58,5 +58,5 @@ XMLHttpRequest.prototype.open = function () {
 			outputMessages(this.responseText);
 		});
 	}
-	return oldOpen.apply(this, arguments);;
+	return oldOpen.apply(this, arguments);
 };
